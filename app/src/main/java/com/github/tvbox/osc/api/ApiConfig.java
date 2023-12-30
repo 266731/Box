@@ -130,7 +130,7 @@ public class ApiConfig {
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
         // Embedded Source : Update in Strings.xml if required
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://codeberg.org/266731/tv2/raw/branch/main/t.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://gitee.com/zx266731/tv/raw/master/fty.json");
         if (apiUrl.isEmpty()) {
             callback.error("源地址为空");
             return;
